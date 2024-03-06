@@ -5,7 +5,7 @@ import { ThemeSwitch } from "./theme-switch";
 
 export default function Home() {
 	return (
-		<section className="flex flex-col items-center justify-center p-4 rounded-xl">
+		<section className="bred w-screen h-screen flex flex-col items-center justify-center">
 				<Snippet hideSymbol hideCopyButton variant="flat">
 						<div className="flex items-center gap-3">
 							Get started by editing
