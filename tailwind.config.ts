@@ -20,6 +20,54 @@ const config: Config = {
     },
   },
   darkMode: "class",
-  plugins: [nextui()],
+  plugins: [
+    nextui({
+
+      // custom themes
+
+      themes: {
+        light: {
+          colors: {
+            background: "#FFFFFF", // or DEFAULT ✅ FFFAED F5E9D3 DED0BA FFFDF9
+            foreground: "#11181C", // or 50 to 900 DEFAULT
+            
+            // gradient
+            projectCardTop: "white",
+            projectCardBotttom: "white",
+
+            // hover dark layer
+            hoverdarkbg: "#0F182A",
+
+            primary: {
+              //... 50 to 900
+              foreground: "#FFFFFF",
+              DEFAULT: "#006FEE",
+            },
+            // ... rest of the colors
+          },
+        },
+        dark: {
+          colors: {
+            background: "#0F182A", // or DEFAULT ✅ 0F172A 0F182A 141414 121422 #000000
+            foreground: "#ECEDEE", // or 50 to 900 DEFAULT
+            
+            // gradient
+            projectCardTop: "#141D2E",
+            projectCardBotttom: "#1E2A3B",
+            
+            // hover dark layer
+            hoverdarkbg: "#0F182A",
+
+            primary: {
+              //... 50 to 900
+              foreground: "#FFFFFF",
+              DEFAULT: "#006FEE",
+            },
+          },
+          // ... rest of the colors
+        },
+      },
+    }),
+  ],
 };
 export default config;
