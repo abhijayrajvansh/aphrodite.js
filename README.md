@@ -22,5 +22,5 @@ Probably the best next.js template you'll ever need!
 To create a new project based on this template using `create-next-app`, run the following command:
 
 ```bash
-pnpm create next-app -e https://github.com/abhijayrajvansh/rajvansh.js
+pnpm create next-app -e https://github.com/abhijayrajvansh/aphrodite.js
 ```
