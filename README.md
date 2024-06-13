@@ -1,4 +1,4 @@
-# jennifer.js 
+# aphrodite.js 
 
 Author: [Abhijay Rajvansh](https://x.com/rajvanshtwt)
 
