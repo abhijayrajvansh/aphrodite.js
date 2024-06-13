@@ -1,4 +1,4 @@
-# rajvansh.js (v1)
+# jennifer.js
 
 Author: [Abhijay Rajvansh](https://x.com/rajvanshtwt)
 
